@@ -1,7 +1,7 @@
 from flask import Flask,render_template
 
 app = Flask(__name__)
-global start=False
+start=False
 @app.route("/")#login is default route
 def login_render():
   return render_template('login.html')
