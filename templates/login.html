@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login page</title>
-    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="stylesheet" href="../static/login_style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat+Alternates&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -23,19 +23,19 @@
             <div class="box">
                 <div class="ctf">CTF</div>
                 <div class="sub_main">
-                      <form>
+                      <form action="{{ url_for('login') }}" method="post">
                     <div class="name">
                         <label class="labelN">Team Name</label>
-                       <input type="text" placeholder="Enter Here" id="inputN" class="inputN">
+                       <input type="text" placeholder="Enter Here" id="username" name="username"class="inputN">
                     </div>
                     <div class="password">
                         <label class="labelP">Password</label>
-                     <input type="password" placeholder="Enter Here " id="inputP" class="inputP">
+                     <input type="password" placeholder="Enter Here " id="password" name="password" class="inputP">
                     </div>
                     <button class="button">Login</button>
                       </form>
                 </div>
-                <div class="question">???</div>
+                <div class="question">{{msg}}</div>
             </div>
         </div>
 
