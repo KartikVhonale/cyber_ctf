@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url(./Assets/image\ 35\ \(1\).png) ;
+    font-family: Arial, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-color: #101431;
+    margin: 0;
+    overflow-x: hidden; 
+}
+
+.container {
+    width: 100%;  
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #101431;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 2%;
+    align-items: center;
+    
+}
+
+.rcoem_logo {
+    width: 15%;
+    max-width: 240px;
+    height: auto;
+}
+
+.aarhant_logo {
+    width: 31%;
+    max-width: 568.99px;
+    height: auto;
+}
+
+.logo {
+    width: 7%;
+    max-width: 112px;
+    height: auto;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: #131E44D6;
+    color: #FFCA30;
+    border-radius: 30px;
+    font-size: 2.5vw; 
+    font-family: audiowide;
+    width: 87%; 
+    max-width: 1721px; 
+    height: auto; 
+    max-height: 994px;
+    padding: 2% 5%; 
+    margin: 0% auto; 
+}
+
+.ctf {
+    background-color: #101431;
+     text-align: right;
+    font-size: 4vw;
+    font-family: Audiowide;
+    margin-top: 110px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #FFCA30;
+    width: 337px;
+    height: 92px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    transform: translateX(-50%); 
+
+   }
+
+.sub_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%; 
+    margin-bottom: 2%; 
+    margin-top: 5%;
+    margin-left: 5%; 
+}
+.name{
+    color: white;
+    margin-bottom: 50px;
+    font-size: 2.5vw;
+    
+
+}
+.password{
+    color: white;
+   
+    font-size: 2.5vw;
+    
+}
+.inputN{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    background-color: rgba(19, 19, 19, 0.877);
+    margin-left: 50px;
+    color: white;
+    border:none;
+    border-radius: 20px;
+    font-size: 2vw;
+    font-family: audiowide;
+width: 420px;
+height: 73px;
+    
+    
+
+}
+.inputN::placeholder{
+    color: white;
+}
+.inputP{
+    width: 420px;
+height: 73px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 35px;
+    background-color: rgba(19, 19, 19, 0.877);
+    border:none;
+    margin-left: 70px;
+    color: white;
+    border-radius: 20px;
+    font-size: 2vw;
+    font-family: audiowide;
+}
+.inputP::placeholder{
+    color: white;
+}
+
+
+.button {
+    background-color: #01011272;
+    font-size: 2vw; 
+    font-family: audiowide;
+    margin-top: 5%; 
+    width: 40%;
+    padding: 2% 5%; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #010112d2;
+    transition: 0.2s;
+}
+
+.button:active {
+    opacity: 0.4;
+}
+
+
+.question{
+    text-align: right;
+    font-size: 4vw;    
+}
+
+.footer {
+    background: #04101F;
+    text-align: center;
+    width: 100%;
+    max-width: 2012px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+.line {
+    width: 100%;
+    max-width:659.762px;
+    height: 0px;
+    border-top: 2px solid #45EDF2;
+    margin: 0 auto;
+}
